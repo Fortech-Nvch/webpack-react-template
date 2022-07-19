@@ -29,12 +29,26 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
       },
+      // If you need to use .scss files then uncommit this
+      // {
+      //   test: /\.scss$/,
+      //   use: ['style-loader', 'css-loader', 'sass-loader'],
+      // },
+      // If you need to use icons then uncommit this
+      // {
+      //   test: /\.(png|jp(e*)g|svg|gif)$/,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //     },
+      //   ],
+      // },
     ],
   },
 
   devServer: {
     port: 3000,
-  }
+  },
 }
