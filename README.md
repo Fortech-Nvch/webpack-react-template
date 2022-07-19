@@ -1,10 +1,15 @@
 # How to use
-* clone it
-* build your React project based on it
+* Click the **Use this template** button on github
+* Create your new repository based on this template
+* Open it
+* Run ```npm i```
+* Uncommit necessary rules in **webpack.config.js** 
 
 # Supported commands
-* npm run start
-* npm run build
+```
+npm run start
+npm run build
+```
 
 
 > Why webpack serve, but not webpack-dev-server? Because I like websokets :-) 
