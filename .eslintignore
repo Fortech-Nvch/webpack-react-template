@@ -1,0 +1,5 @@
+build/
+lib/
+/public/
+node_modules/
+tsconfig.json
